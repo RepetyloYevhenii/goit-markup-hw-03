@@ -1,0 +1,181 @@
+/* секция герой */
+.hero {
+  background-color: #2f303a;
+  width: 1600px;
+}
+
+.hero-contenier {
+  /* display: block; */
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button {
+  display: inline-block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  background-color: var(--color-accent);
+  text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* оформление секций */
+
+/* <!-- наши приимущества -- >  */
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  /* background-color: cornflowerblue; */
+}
+
+.section .list-section {
+  display: flex;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: cornsilk; */
+}
+
+.list-section .list-text + .list-text {
+  margin-left: 30px;
+  align-items: flex-start;
+}
+
+.work-section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-list {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+
+  text-transform: uppercase;
+
+  color: var(--color-text-h);
+}
+
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.hero-title {
+}
+
+.title-section {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--color-text-h);
+}
+
+.work-list .work-photo + .work-photo {
+  margin-left: 30px;
+}
+
+.title {
+  margin-top: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.56;
+  text-align: center;
+
+  color: var(--color-text-h);
+}
+
+.text-team {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.56;
+  text-align: center;
+}
+
+.team-contenier {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-photo {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  /* display: block; */
+}
+
+.team-contenier .team-photo + .team-photo {
+  margin-left: 30px;
+}
