@@ -1,15 +1,9 @@
 /* секция герой */
 .hero {
   background-color: #2f303a;
-  width: 1600px;
 }
 
 .hero-contenier {
-  /* display: block; */
-  width: 1200px;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -29,63 +23,14 @@
   color: #ffffff;
 }
 
-.button {
-  display: inline-block;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
-
-  background-color: var(--color-accent);
-  text-decoration: none;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-
-  text-align: center;
-
-  color: #ffffff;
-}
-
 /* оформление секций */
-
-/* <!-- наши приимущества -- >  */
-.section {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  /* background-color: cornflowerblue; */
-}
-
-.section .list-section {
+.contanier .list-section {
   display: flex;
-
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: cornsilk; */
+  justify-content: center;
 }
 
 .list-section .list-text + .list-text {
   margin-left: 30px;
-  align-items: flex-start;
-}
-
-.work-section {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .work-list {
@@ -112,9 +57,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.hero-title {
 }
 
 .title-section {
@@ -155,27 +97,21 @@
   text-align: center;
 }
 
-.team-contenier {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
+.section-team {
+  background-color: var(--background-color-tiam);
 }
 
 .team-list {
   display: flex;
+  justify-content: center;
 }
 
 .team-photo {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  /* display: block; */
 }
 
-.team-contenier .team-photo + .team-photo {
+.team-list .team-photo + .team-photo {
   margin-left: 30px;
 }
