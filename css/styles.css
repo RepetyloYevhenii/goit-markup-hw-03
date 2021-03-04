@@ -14,10 +14,8 @@
 }
 
 body {
-  color: #757575;
   text-decoration: none;
   margin: 0;
-  background-color: var(--background-color-main);
 }
 
 /* утилиты */
@@ -55,7 +53,6 @@ img {
 }
 
 .section {
-  min-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
   /* outline: 2px solid tomato; */
@@ -96,13 +93,11 @@ img {
 /* Шапка сайта */
 .header {
   background-color: var(--background-color-header);
-  width: 1600px;
   border-bottom: 1px solid #ececec;
 }
 
 .header-contenier {
   display: flex;
-  /* background-color: red; */
   width: 1200px;
   margin: auto;
   padding-left: 15px;

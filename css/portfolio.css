@@ -1,5 +1,4 @@
 .portfolio-section {
-  width: 1600px;
 }
 
 .portfolio-contenier {
@@ -16,7 +15,7 @@
 .button-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
 }
 
 .portfolio-list {
@@ -84,7 +83,7 @@
 
   background-color: #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
+  border: none;
 }
 
 .filter:hover,

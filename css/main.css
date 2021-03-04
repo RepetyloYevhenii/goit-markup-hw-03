@@ -4,8 +4,8 @@
 }
 
 .hero-contenier {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
   text-align: center;
 }
 
@@ -80,7 +80,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.56;
+  line-height: 1.187;
   text-align: center;
 
   color: var(--color-text-h);
@@ -93,8 +93,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 0.56;
+  line-height: 1.187;
   text-align: center;
+}
+
+.section-work {
+  padding-bottom: 94px;
 }
 
 .section-team {
